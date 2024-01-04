@@ -1,0 +1,329 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#main_header{
+    border-bottom: 1px solid silver;
+    height: 10vh;
+    align-items:center ;
+}
+#header_leftSide{
+    text-align: end;
+}
+#header_leftSide ul{
+    margin-top: 1rem !important;
+    padding-right: 1rem;
+}
+#header_leftSide li{
+    font-family: 'Lora', serif;
+    display: inline;
+    border-left: 0.3px solid silver;
+    padding-left: 0.5rem;
+    font-size: 0.7rem;
+    cursor: pointer;
+}
+#header_leftSide li:hover{
+    text-decoration: underline;
+}
+#header_leftSide i{
+    color: green;
+    padding-right: 0.3rem;
+}
+
+#cart_shop{
+    font-size: 1.4rem !important;
+}
+#header_inp{
+    display: flex;
+    align-items: center;
+    border: 1px solid silver;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+}
+#header_inp{
+    height: 6vh !important;
+    margin-top: 1rem;
+    align-items: center !important  ;
+}
+#header_inp input{
+    width: 96%; 
+    padding: 0rem 1rem;  
+    border: none;
+    outline: none;
+    /* height: 7vh !important  ; */
+}
+#header_inp i{
+    padding:  0rem  1rem;
+    color: green;   
+}
+#headr_left1 img{
+    width: 100%;
+    height: 10vh;
+}
+
+
+/* slider img */
+.carousel-item img{
+    width: 100%;
+    height: 65vh;
+    margin-top: 1rem;
+}
+
+
+
+/* start navbar */
+.navbar-nav a{
+    font-weight: 500;
+    font-family: 'Lora', serif; 
+    font-size: 0.8rem;
+    color: white    ;
+}
+
+.setAll{
+    color: white !important;
+    font-weight: 600 !important;
+}
+
+
+/* card first */
+#main_card_session{
+    padding: 3rem 1rem;
+    margin: 2rem 0rem 0rem 0rem;
+    text-align: center;
+    background-color: rgba(71, 243, 71, 0.144);
+}
+#main_card_session h3{
+    padding: 1rem 0rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-family: 'Lora', serif;
+    text-decoration: underline;
+}
+#main_card_session button{
+    width: 40%;
+    /* color: green; */
+    font-family: 'Lora', serif;
+    margin-top: 2rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    justify-content: start;
+}
+#inner_card_set{
+    margin-top: 1rem;
+    font-family: 'Lora', serif;
+}
+#first_card img{
+    height: 30vh;
+    width:100%;
+}
+#first_card{
+    text-align: center;
+}
+#first_card p{
+    font-size: 0.7rem;
+}
+
+#first_card h5{
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+#card_rating{
+    font-size: 0.8rem;
+    color: goldenrod;
+    padding: 0rem 0rem 1rem 0rem;
+}
+
+/* poster set */
+
+#poster_img img{
+    width: 100%;
+    padding: 1rem;
+    margin: 0rem;
+}
+
+
+/* rounder session */
+#main_rounder{
+    background-color: rgba(71, 243, 71, 0.144);
+    padding: 4rem 2rem;
+    text-align: center;
+}
+#rouder_session{
+    padding: 0rem;
+    border: 1px solid green;
+    height: 50vh;
+    border-radius: 9rem;
+    overflow: hidden;
+}
+#rouder_session:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+}
+#rouder_session img{
+    width: 100%;
+    height:30vh;
+    padding: 0;
+    overflow: hidden;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+    padding-bottom: 2rem;
+}
+#rouder_session a{
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-decoration: none;
+    font-family:'Lora', serif;
+    color: black;
+    text-transform: capitalize;
+}
+#main_rounder h2{
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-family: 'Lora', serif;
+    text-decoration: underline;
+}
+
+#main_rounder h5{
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: 'Lora', serif;
+}
+
+
+/* footer sessionm */
+#footer_session{
+    background-color: black;
+    padding: 3rem 2rem;
+    font-family: 'Lora', serif;
+}
+#inner_footer h2{
+    font-size: 1rem !important;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+} 
+#inner_footer li{
+    list-style-type: none;
+    font-size: 0.8rem;
+}
+#inner_footer li a{
+    color: silver !important;
+    text-decoration: none;
+}
+#inner_footer li a:hover{
+    color: green !important;
+    text-decoration: underline;
+}
+#inner_footer i{
+    color: white;
+    margin-left: 0.4rem;
+    font: 2rem !important;
+}
+
+#inner_footer1{
+    border-style: double;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+#inner_footer1 img{
+    width: 45%;
+    height: 10vh;
+}
+
+#inner_footer1 h3{
+    font-size: 1rem;
+    text-align: start;
+}
+.footer_bottm{
+    margin-top: 2rem !important;
+    padding-left: 2.6rem !important;
+}
+.footer_bottm span{
+    color:  white;
+}
+
+/* marquee session */
+#main_marqee_session{
+    background-color: white;
+    padding: 5rem 0rem;
+    width: 100%;
+}
+#text_top_marq{
+    background-color: green;
+    text-align: center;
+    align-items: center !important;
+    padding-top: 0.6rem;
+    color: white;
+    height: 9vh;
+    font-family: 'Lora', serif;
+}
+#text_top_marq h2{
+    font-weight: 600;
+    font-size: 1.3rem;
+    padding-top: 0.4rem;
+}
+#main_marqee{
+    padding: 5rem 0rem;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    background-color: rgba(71, 243, 71, 0.144);
+}
+
+
+
+.wraper{
+    width: 100%;
+    height: 100vh;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+.slider-animation{
+    width:100%;
+    height: 100px;
+    position: relative;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    /* justify-content: r; */
+    overflow: hidden;
+}
+.slide-animation{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    animation: sildeShow 8s linear infinite;
+}
+.slide-animation img{
+    height: 70px;
+    padding: 0 30px 0 30px ;
+}
+.inner-marq{
+    display: flex;
+    height: 100px;
+}
+.inner-marq h2{
+    border-top-left-radius: 0.3rem;
+    border-bottom-left-radius: 0.3rem;
+    background-color: green;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 600;
+    font-family: 'Lora', serif;
+}
+
+
+@keyframes sildeShow{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}

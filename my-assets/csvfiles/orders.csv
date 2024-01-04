@@ -1,0 +1,2 @@
+Date,Branch,TransactionCurrency,ExchangeRate,PartyAccountCode,PartyAccount,VATCSTTransactionType,Remarks,ProductCode,Product,UOM,Quantity,UnitRate,GrossAmount,DiscountBasis1,Discount1,TaxStructure,VATCSTProductCategory,VATCSTCommodityCode,Comments
+07-25-2023,RIYADH,SAR,1,11310008,"Kaira - WHY12J9WKQPKGER",15%,,62376389,"Rose Sharbat",Kg,1,300,300,number,0,"SAUDI VAT","Inputs 15% GCC VAT",15%,

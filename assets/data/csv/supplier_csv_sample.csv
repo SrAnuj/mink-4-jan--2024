@@ -1,0 +1,3 @@
+supplier_name*,mobile*,email,vat_no,cin*,pan,cfssai,sfssai,address*,details,previous_balance,bank_account,account_no,ifsc,account_type,bank_name,branch,status
+supplier_1,9198090,email,200,100,pan,cfssai,sfssai,address,supplier details,0,bank account name,account no,ifsc,current,bank_name,branch,1
+supplier_2,9198090,email,200,100,pan,cfssai,sfssai,address,supplier details,0,bank account name,account no,ifsc,current,bank_name,branch,1
